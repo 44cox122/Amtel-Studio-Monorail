@@ -1,0 +1,36 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\Debug\lcdtest.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lcdtest.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lcdtest.map</FILE>
+  <FILE>lcdtest.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RESET2><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm</FILE><LINE>39</LINE></RESET2>
+  <lcd_command><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm</FILE><LINE>102</LINE></lcd_command>
+  <lcd_wait><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm</FILE><LINE>132</LINE></lcd_wait>
+  <sleep_5ms><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm</FILE><LINE>172</LINE></sleep_5ms>
+  <sleep_1ms><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm</FILE><LINE>159</LINE></sleep_1ms>
+  <loop1><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm</FILE><LINE>69</LINE></loop1>
+  <lcd_data><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm</FILE><LINE>115</LINE></lcd_data>
+  <halt><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm</FILE><LINE>82</LINE></halt>
+  <lcd_wait_loop><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm</FILE><LINE>139</LINE></lcd_wait_loop>
+  <delayloop_1ms><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm</FILE><LINE>165</LINE></delayloop_1ms>
+ </LABELS>
+</ASSEMBLER_INFO>

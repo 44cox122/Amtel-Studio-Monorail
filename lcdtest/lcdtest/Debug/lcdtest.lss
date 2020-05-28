@@ -1,0 +1,95 @@
+
+AVRASM ver. 2.2.7  C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm Mon Oct 01 15:37:50 2018
+
+[builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m2560def.inc'
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(14): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m2560def.inc'
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(32): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m2560def.inc'
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(37): warning: Register r17 already defined by the .DEF directive
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(38): warning: Register r18 already defined by the .DEF directive
+[builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m2560def.inc'
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(14): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m2560def.inc'
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(32): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m2560def.inc'
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(180): error: Overlap in .cseg: addr=0x1 conflicts with 0x0:0x6
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(184): error: Overlap in .cseg: addr=0x2 conflicts with 0x0:0x6
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(185): error: Overlap in .cseg: addr=0x3 conflicts with 0x0:0x6
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(186): error: Overlap in .cseg: addr=0x4 conflicts with 0x0:0x6
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(187): error: Overlap in .cseg: addr=0x5 conflicts with 0x0:0x6
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(28): error: Overlap in .cseg: addr=0x2e conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(218): macro 'do_lcd_data' called here
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(29): error: Overlap in .cseg: addr=0x2f conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(218): macro 'do_lcd_data' called here
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(220): error: Overlap in .cseg: addr=0x30 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(222): error: Overlap in .cseg: addr=0x31 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(223): error: Overlap in .cseg: addr=0x32 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(224): error: Overlap in .cseg: addr=0x33 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(227): error: Overlap in .cseg: addr=0x34 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(247): error: Overlap in .cseg: addr=0x35 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(248): error: Overlap in .cseg: addr=0x36 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(236): error: Overlap in .cseg: addr=0x37 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(249): macro 'lcd_set' called here
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(250): error: Overlap in .cseg: addr=0x38 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(251): error: Overlap in .cseg: addr=0x39 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(252): error: Overlap in .cseg: addr=0x3a conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(239): error: Overlap in .cseg: addr=0x3b conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(253): macro 'lcd_clr' called here
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(254): error: Overlap in .cseg: addr=0x3c conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(255): error: Overlap in .cseg: addr=0x3d conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(256): error: Overlap in .cseg: addr=0x3e conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(257): error: Overlap in .cseg: addr=0x3f conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(260): error: Overlap in .cseg: addr=0x40 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(236): error: Overlap in .cseg: addr=0x41 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(261): macro 'lcd_set' called here
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(262): error: Overlap in .cseg: addr=0x42 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(263): error: Overlap in .cseg: addr=0x43 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(264): error: Overlap in .cseg: addr=0x44 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(236): error: Overlap in .cseg: addr=0x45 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(265): macro 'lcd_set' called here
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(266): error: Overlap in .cseg: addr=0x46 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(267): error: Overlap in .cseg: addr=0x47 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(268): error: Overlap in .cseg: addr=0x48 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(239): error: Overlap in .cseg: addr=0x49 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(269): macro 'lcd_clr' called here
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(270): error: Overlap in .cseg: addr=0x4a conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(271): error: Overlap in .cseg: addr=0x4b conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(272): error: Overlap in .cseg: addr=0x4c conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(239): error: Overlap in .cseg: addr=0x4d conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(273): macro 'lcd_clr' called here
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(274): error: Overlap in .cseg: addr=0x4e conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(277): error: Overlap in .cseg: addr=0x4f conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(278): error: Overlap in .cseg: addr=0x50 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(279): error: Overlap in .cseg: addr=0x51 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(280): error: Overlap in .cseg: addr=0x52 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(236): error: Overlap in .cseg: addr=0x53 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(281): macro 'lcd_set' called here
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(284): error: Overlap in .cseg: addr=0x54 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(236): error: Overlap in .cseg: addr=0x55 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(285): macro 'lcd_set' called here
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(286): error: Overlap in .cseg: addr=0x56 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(287): error: Overlap in .cseg: addr=0x57 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(288): error: Overlap in .cseg: addr=0x58 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(289): error: Overlap in .cseg: addr=0x59 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(239): error: Overlap in .cseg: addr=0x5a conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(290): macro 'lcd_clr' called here
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(291): error: Overlap in .cseg: addr=0x5b conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(292): error: Overlap in .cseg: addr=0x5c conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(239): error: Overlap in .cseg: addr=0x5d conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(293): macro 'lcd_clr' called here
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(294): error: Overlap in .cseg: addr=0x5e conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(295): error: Overlap in .cseg: addr=0x5f conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(296): error: Overlap in .cseg: addr=0x60 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(297): error: Overlap in .cseg: addr=0x61 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(304): error: Overlap in .cseg: addr=0x62 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(305): error: Overlap in .cseg: addr=0x63 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(306): error: Overlap in .cseg: addr=0x64 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(307): error: Overlap in .cseg: addr=0x65 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(310): error: Overlap in .cseg: addr=0x66 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(311): error: Overlap in .cseg: addr=0x67 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(312): error: Overlap in .cseg: addr=0x68 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(313): error: Overlap in .cseg: addr=0x69 conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(314): error: Overlap in .cseg: addr=0x6a conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(317): error: Overlap in .cseg: addr=0x6b conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(318): error: Overlap in .cseg: addr=0x6c conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(319): error: Overlap in .cseg: addr=0x6d conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(320): error: Overlap in .cseg: addr=0x6e conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(321): error: Overlap in .cseg: addr=0x6f conflicts with 0x2e:0x90
+C:\Users\lakew\Documents\Atmel Studio\7.0\lcdtest\lcdtest\main.asm(322): error: Overlap in .cseg: addr=0x70 conflicts with 0x2e:0x90

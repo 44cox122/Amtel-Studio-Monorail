@@ -1,0 +1,59 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m2560def.inc</FILE>
+  <FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\macros.asm</FILE>
+  <FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\lcd.asm</FILE>
+  <FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\bi2dec.asm</FILE>
+  <FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\screenprint.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\Debug\lab05a.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>lab05a.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>lab05a.map</FILE>
+  <FILE>lab05a.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <TempCounter><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\main.asm</FILE><LINE>19</LINE></TempCounter>
+  <HoleCounter><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\main.asm</FILE><LINE>20</LINE></HoleCounter>
+  <DecNum><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\main.asm</FILE><LINE>21</LINE></DecNum>
+  <RESET><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\main.asm</FILE><LINE>39</LINE></RESET>
+  <EXT_INT0><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\main.asm</FILE><LINE>100</LINE></EXT_INT0>
+  <EXT_INT1><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\main.asm</FILE><LINE>103</LINE></EXT_INT1>
+  <EXT_INT2><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\main.asm</FILE><LINE>106</LINE></EXT_INT2>
+  <Timer0OVF><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\main.asm</FILE><LINE>131</LINE></Timer0OVF>
+  <lcd_command><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\lcd.asm</FILE><LINE>22</LINE></lcd_command>
+  <lcd_wait><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\lcd.asm</FILE><LINE>52</LINE></lcd_wait>
+  <sleep_5ms><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\lcd.asm</FILE><LINE>92</LINE></sleep_5ms>
+  <sleep_1ms><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\lcd.asm</FILE><LINE>80</LINE></sleep_1ms>
+  <main><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\main.asm</FILE><LINE>78</LINE></main>
+  <stop><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\main.asm</FILE><LINE>95</LINE></stop>
+  <return><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\main.asm</FILE><LINE>128</LINE></return>
+  <NotMSecond><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\main.asm</FILE><LINE>156</LINE></NotMSecond>
+  <continue><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\main.asm</FILE><LINE>161</LINE></continue>
+  <EndIF><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\main.asm</FILE><LINE>170</LINE></EndIF>
+  <print_to_screen><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\screenprint.asm</FILE><LINE>7</LINE></print_to_screen>
+  <lcd_data><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\lcd.asm</FILE><LINE>35</LINE></lcd_data>
+  <lcd_wait_loop><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\lcd.asm</FILE><LINE>59</LINE></lcd_wait_loop>
+  <delayloop_1ms><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\lcd.asm</FILE><LINE>85</LINE></delayloop_1ms>
+  <convert2><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\bi2dec.asm</FILE><LINE>8</LINE></convert2>
+  <Bin2Bcd><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\bi2dec.asm</FILE><LINE>30</LINE></Bin2Bcd>
+  <Bin2Digit><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\bi2dec.asm</FILE><LINE>67</LINE></Bin2Digit>
+  <Subtract><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\bi2dec.asm</FILE><LINE>69</LINE></Subtract>
+  <store><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\bi2dec.asm</FILE><LINE>79</LINE></store>
+  <DecNumL><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\screenprint.asm</FILE><LINE>37</LINE></DecNumL>
+  <DecNumE><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\lab05a\lab05a\screenprint.asm</FILE><LINE>46</LINE></DecNumE>
+ </LABELS>
+</ASSEMBLER_INFO>

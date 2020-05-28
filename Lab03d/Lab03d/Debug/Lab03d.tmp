@@ -1,0 +1,37 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega2560"</DEVICE>
+ <WORKING_DIR>C:\Users\lakew\Documents\Atmel Studio\7.0\Lab03d\Lab03d\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\Lab03d\Lab03d\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m2560def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\Lab03d\Lab03d\Debug\Lab03d.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab03d.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab03d.map</FILE>
+  <FILE>Lab03d.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MinsCounter><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\Lab03d\Lab03d\main.asm</FILE><LINE>27</LINE></MinsCounter>
+  <SecondCounter><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\Lab03d\Lab03d\main.asm</FILE><LINE>28</LINE></SecondCounter>
+  <TempCounter><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\Lab03d\Lab03d\main.asm</FILE><LINE>29</LINE></TempCounter>
+  <RESET><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\Lab03d\Lab03d\main.asm</FILE><LINE>47</LINE></RESET>
+  <DEFAULT><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\Lab03d\Lab03d\main.asm</FILE><LINE>44</LINE></DEFAULT>
+  <Timer0OVF><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\Lab03d\Lab03d\main.asm</FILE><LINE>59</LINE></Timer0OVF>
+  <main><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\Lab03d\Lab03d\main.asm</FILE><LINE>127</LINE></main>
+  <NotSecond><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\Lab03d\Lab03d\main.asm</FILE><LINE>111</LINE></NotSecond>
+  <continue><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\Lab03d\Lab03d\main.asm</FILE><LINE>93</LINE></continue>
+  <EndIF><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\Lab03d\Lab03d\main.asm</FILE><LINE>115</LINE></EndIF>
+  <stop><FILE>C:\Users\lakew\Documents\Atmel Studio\7.0\Lab03d\Lab03d\main.asm</FILE><LINE>146</LINE></stop>
+ </LABELS>
+</ASSEMBLER_INFO>
